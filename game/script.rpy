@@ -123,7 +123,7 @@ label stinky:
         xzoom -1.0
     show haylie_chud at center with fade
 
-    n "The stinky woman enters the kitchen earlier than the other guests, striking Justin Star with a curious interest."
+    n "The stinky woman enters the kitchen earlier than the other guests, striking Justin Stahr with a curious interest."
 
     show darel_base at topright:
         xzoom -1.0
@@ -137,7 +137,7 @@ label stinky:
 
     show justin_base at center with fade
   
-    j "Hello and welcome to my baking show, Baking off the Stars, I have four contestants here for you today!"
+    j "Hello and welcome to my baking show, Baking off the Stahrs, I have four contestants here for you today!"
 
 menu:
     "Give up Justin and bake away for your future!":
@@ -181,7 +181,7 @@ label good_posture:
     n "We watched Hailey improve herself thus far... should she continue:"
 
 menu:
-    "Be better for Justin Star!":
+    "Be better for Justin Stahr!":
         jump mouth
     
     "Go to the competition with her current improvements.":
@@ -205,7 +205,7 @@ label clean_but_messy:
 
     show justin_base with fade
   
-    j "Hello, and welcome to my baking show, Baking off the Stars. I have four contestants here for the viewers today!"
+    j "Hello, and welcome to my baking show, Baking off the Stahrs. I have four contestants here for the viewers today!"
 
 menu:
     "Lock-in on the butter creaming for your cookies.":
@@ -242,12 +242,12 @@ label straight_back:
         xzoom -1.0
     show justin_base with fade
   
-    j "Hello and welcome to my baking show, Baking off the Stars, I have four contestants here for you today!"
+    j "Hello and welcome to my baking show, Baking off the Stahrs, I have four contestants here for you today!"
 menu:
     "Do your best with your cake batter.":
         jump level_f
     
-    "Stare at Justin.......... MMMMMMMMMmmmm Justin Starrrrr.":
+    "Stare at Justin.......... MMMMMMMMMmmmm Justin Stahrrrrr.":
         jump bad_ending_3
 
 
@@ -307,7 +307,7 @@ label ankle:
     h "My ankle feels so much better after that..."
 
 menu:
-    "Continue improving for Justin STARRRRRRRRRRRR!":
+    "Continue improving for Justin STAHRRRRRRRRRRRR!":
         jump chef
 
     "Go to the bake off as you are now.":
