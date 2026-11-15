@@ -3,7 +3,9 @@ define j = Character("Justin Stahr", color="#76cc67")
 define m = Character("Marley", color="#784581ff")
 define e = Character("emilie", color="#515bc46d")
 define d = Character("Darel", color="#e4d534")
-define n = Character("Narrartor", color="#e39434")
+define n = Character("Narrator", color="#e39434")
+define ju = Character("Justice", color="#0a3003")
+define di = Character("Diana", color="#80546e")
 
 image bg_trashy_apartment = "images/trashy_apartment.jpg"
 image bg_clean_apartment = "images/clean_apartment.avif"
@@ -96,6 +98,12 @@ image darel_sad:
 image camera:
     "images/camera.png"
     zoom 0.1
+image justice_base:
+    "images/justice_base.png"
+    zoom 0.5
+image diana_base:
+    "images/diana_base.png"
+    zoom 0.5
 
 
 label start:
@@ -353,7 +361,7 @@ label level_h:
         xzoom -1.0
     show justin_base with fade 
     j "Today the baker being kicked off is Marley. She did not show her best with her baking."
-    d "*crying and vomitting in the kitchen.*"
+    m "*crying and vomitting in the kitchen.*"
 menu:
     "Win. That. CUPPPPPPPPPPPPPPPPPPPPPPPP!!!!!!!!!!!!!!!!":
         jump mid_ending
@@ -485,7 +493,7 @@ label bad_ending_5:
     show darel_base at topright:
         xzoom -1.0
     show emilie_base at topleft
-    show professional_attire at left
+    show professional at left
     show marley_base at right:
         xzoom -1.0
     j "Sorry bakers, I'm stuck in traffic, the bake off is cancelled!"
@@ -586,18 +594,18 @@ menu:
      
 label poly_ending:  
         scene bg_night_city
-        show justin_happy at left with fade
+        show justice_base at left with fade
         show happy_haylie at topright with fade:
             xzoom -1.0
         show marley_envious at right with fade:
             xzoom -1.0
-        show darel_base at topleft with fade
+        show diana_base at topleft with fade
         show emilie_base at center with fade
         h "I'm glad our relationship has worked out these last five years."
-        j "I feel like I'm in love with you all equally, and I'm feeling a bit queer"
+        ju "I feel like I'm in love with you all equally, and I'm feeling a bit queer"
         n "(My friend gave me the go ahead to use that word)"
         m "I'm glad we all settled our differences and love each other equally"
-        d "I'm polyamorous."
+        di "I'm polyamorous."
         e "I'm polyamorous too."
         n "They all settled their differences and became poly lovers, some more than others."
         n "You reached the trans poly ending"
