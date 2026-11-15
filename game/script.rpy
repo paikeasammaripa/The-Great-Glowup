@@ -485,7 +485,7 @@ label bad_ending_5:
     show darel_base at topright:
         xzoom -1.0
     show emilie_base at topleft
-    show professinal at left
+    show professional_attire at left
     show marley_base at right:
         xzoom -1.0
     j "Sorry bakers, I'm stuck in traffic, the bake off is cancelled!"
@@ -576,7 +576,33 @@ label meet_justin:
     j "hey pretty lady..."
     h "hi"
     n "you have reached the true love ending!"
-    return 
+
+menu:
+    "end here?":
+        return
+
+    "Go five years in the future.":
+        jump poly_ending
+     
+label poly_ending:  
+        scene bg_night_city
+        show justin_happy at left with fade
+        show happy_haylie at topright with fade:
+            xzoom -1.0
+        show marley_envious at right with fade:
+            xzoom -1.0
+        show darel_base at topleft with fade
+        show emilie_base at center with fade
+        h "I'm glad our relationship has worked out these last five years."
+        j "I feel like I'm in love with you all equally, and I'm feeling a bit queer"
+        n "(My friend gave me the go ahead to use that word)"
+        m "I'm glad we all settled our differences and love each other equally"
+        d "I'm polyamorous."
+        e "I'm polyamorous too."
+        n "They all settled their differences and became poly lovers, some more than others."
+        n "You reached the trans poly ending"
+        return
+
 label bake_off_ending:
     scene bg_baking_kitchen
     show happy_haylie at right with fade:
