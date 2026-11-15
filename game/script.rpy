@@ -105,7 +105,7 @@ label start:
 
     show haylie_chud with dissolve
 
-    n "In a trashy apartment stands a woman who wants to make a name for her self."
+    n "In a trashy apartment stands a woman who wants to make a name for herself."
 
     n "Should she.:."
 
