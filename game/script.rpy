@@ -594,12 +594,12 @@ menu:
      
 label poly_ending:  
         scene bg_night_city
-        show justice_base at left with fade
         show happy_haylie at topright with fade:
             xzoom -1.0
         show marley_envious at right with fade:
             xzoom -1.0
         show diana_base at topleft with fade
+        show justice_base at left with fade
         show emilie_base at center with fade
         h "I'm glad our relationship has worked out these last five years."
         ju "I feel like I'm in love with you all equally, and I'm feeling a bit queer"
