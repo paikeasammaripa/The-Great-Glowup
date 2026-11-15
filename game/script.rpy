@@ -1,5 +1,5 @@
 ﻿define h = Character("Hailie", color="#d875b9")
-define j = Character("Justin", color="#76cc67")
+define j = Character("Justin Stahr", color="#76cc67")
 define m = Character("Marley", color="#784581ff")
 define e = Character("emilie", color="#515bc46d")
 define d = Character("Darel", color="#e4d534")
