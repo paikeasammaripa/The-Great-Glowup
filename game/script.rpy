@@ -631,6 +631,8 @@ label good_ending:
     show justin_happy with fade 
     j "I love you my catboy femcat bbg gng."
     h "Kiss me you hot catboy."
+    "you have reached the good ending!"
+    return
 
 label bad_ending_11:
     scene bg_baking_kitchen
