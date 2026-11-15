@@ -644,4 +644,25 @@ label bad_ending_11:
     h "I KILLED HIM *Crying*"
     j "dead"
     "you've reached bad ending possiblity 11"
+menu:
+    "end game?":
+        return
+    "secret ending...":
+        jump secret_ending
+
+label secret_ending:
+    scene bg_night_city
+    show marley_envious at right with dissolve:
+        xzoom -1.0
+
+    show happy_haylie at left with fade
+
+    h "Marley, I've secretly loved you." 
+    m "I secretly have loved you too..."
+    show happy_haylie at center:
+        yzoom 0.5
+    show marley_envious at center:
+        yzoom 0.5
+    n "They begin kissing passionately."
+    n "You got the yuri ending!"
     return
